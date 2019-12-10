@@ -1,0 +1,62 @@
+#pokedex-number > h3 > p{
+    display: inline;
+    font-weight: lighter;
+}
+
+
+body{
+    text-align: center;
+    background-image: url("/images/PokedexBackground.jpg");
+    background-repeat: initial;
+    background-size: cover;
+    font-size: larger;
+}
+
+#pokemon-moves ul{
+    list-style: decimal;
+}
+
+ul{
+    list-style: none;
+    overflow-wrap: normal;
+}
+
+
+#pokemon-types{
+    clear: left;
+}
+
+#pokemon-abilities li, #pokemon-stats li, #pokemon-types li{
+    display: block;
+}
+
+li{
+    display: inline;
+}
+
+div{
+    border: 3px solid black;
+    padding: .1em;
+    margin: .5em;
+    margin-left: 29%;
+    width: 40%;
+}
+
+#pokemon{
+    width: 65%;
+    margin-left: 17em;
+}
+
+#pokemon-types > ul > li, #pokemon-abilities > ul > li, #pokemon-moves > ul, #pokemon-stats > ul > li{
+    margin-right: 2.5em;
+}
+
+body > h1, body > h3{
+    margin-right: 1em;
+    margin-top: 2em;
+    color: darkblue;
+}
+
+body > h3{
+    color: lightblue;
+}

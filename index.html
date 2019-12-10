@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+<body>
+    <h1>Random Pokemon Generator</h1>
+    <h3>(Generations 1-7)</h3>
+    <button type="button" id="random-button" onclick="getPokemon(Math.floor(Math.random() * 806))">Random Pokemon</button>
+    <div id="pokemon">
+        <div id="pokemon-name">
+            <h2></h2>
+        </div>
+        <div id="pokedex-number">
+            <h3>Pokedex #: <p></p></h3>
+        </div>
+        <div id="pokemon-sprite">
+            <img src="">
+        </div>
+        <div id="pokemon-types">
+            <h3>Type(s): </h3>
+            <ul>
+
+            </ul>
+        </div>
+        <div id="pokemon-abilities">
+            <h3>Abilities: </h3>
+            <ul>
+
+            </ul>
+        </div>
+        <div id="pokemon-moves">
+            <h3>Moves: </h3>
+            <ul>
+
+            </ul>
+        </div>
+        <div id="pokemon-stats">
+            <h3>Stats: </h3>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
+    <script> const P = new Pokedex.Pokedex(); </script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
