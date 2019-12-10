@@ -6,7 +6,7 @@
 
 body{
     text-align: center;
-    background-image: url("/images/PokedexBackground.jpg");
+    background-image: url("../images/PokedexBackground.jpg");
     background-repeat: initial;
     background-size: cover;
     font-size: larger;
@@ -45,6 +45,8 @@ div{
 #pokemon{
     width: 65%;
     margin-left: 17em;
+    border: nonepokedex icon
+    ;
 }
 
 #pokemon-types > ul > li, #pokemon-abilities > ul > li, #pokemon-moves > ul, #pokemon-stats > ul > li{
